@@ -169,14 +169,12 @@ main .offers {
   grid-template-columns: 22rem 22rem 22rem;
   justify-content: center;
   gap: 3rem;
-  padding-bottom: 14rem;
 }
 @media screen and (max-width: 756px) {
   main .offers {
     display: flex;
     flex-direction: column;
     margin: 0 1rem;
-    padding-bottom: 5rem;
   }
 }
 main .offers .offer {
@@ -206,11 +204,14 @@ main .offers .offer p {
 
 .crew {
   display: flex;
+  padding-top: 8rem;
+  background: var(--gray);
 }
 @media screen and (max-width: 756px) {
   .crew {
     display: flex;
     flex-direction: column;
+    padding-top: 5rem;
   }
 }
 .crew .img {
