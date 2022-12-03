@@ -205,7 +205,6 @@ main .offers .offer p {
 
 .crew {
   display: flex;
-  padding-top: 8rem;
   background: var(--gray);
 }
 @media screen and (max-width: 756px) {
