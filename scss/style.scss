@@ -152,6 +152,7 @@ main {
       display: flex;
       flex-direction: column;
       margin: 0 1rem;
+      padding-bottom: 5rem;
     }
 
     .offer {
@@ -193,7 +194,6 @@ main {
   @include oppo {
     display: flex;
     flex-direction: column;
-    padding-top: 5rem;
   }
 
   .img {

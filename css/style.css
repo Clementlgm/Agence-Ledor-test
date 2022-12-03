@@ -175,6 +175,7 @@ main .offers {
     display: flex;
     flex-direction: column;
     margin: 0 1rem;
+    padding-bottom: 5rem;
   }
 }
 main .offers .offer {
@@ -211,7 +212,6 @@ main .offers .offer p {
   .crew {
     display: flex;
     flex-direction: column;
-    padding-top: 5rem;
   }
 }
 .crew .img {
