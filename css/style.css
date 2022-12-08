@@ -181,6 +181,12 @@ main .offers {
 main .offers .offer {
   background: var(--white);
   text-align: center;
+  margin-bottom: 8rem;
+}
+@media screen and (max-width: 756px) {
+  main .offers .offer {
+    margin-bottom: 1rem;
+  }
 }
 main .offers .offer img {
   max-width: 22rem;

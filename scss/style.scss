@@ -158,6 +158,11 @@ main {
     .offer {
       background: var(--white);
       text-align: center;
+      margin-bottom: 8rem;
+
+      @include oppo {
+        margin-bottom: 1rem;
+      }
 
       img {
         max-width: 22rem;
